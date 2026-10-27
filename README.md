@@ -10,9 +10,9 @@ Proyecto del ACA de **Programación Avanzada**, desarrollado en **C#**, **Window
 |---|---|
 | Lenguaje | C# 7.3 |
 | Plataforma | .NET Framework 4.8 (Windows Forms) |
-| Base de datos | SQL Server 2017 o superior (sirve la edición Express) |
+| Base de datos | SQL Server 2017 o superior (probado con SQL Server 2025 Express) |
 | Acceso a datos | ADO.NET (`System.Data.SqlClient`) con consultas parametrizadas |
-| IDE | Visual Studio 2022 (carga de trabajo "Desarrollo de escritorio de .NET") |
+| IDE | Visual Studio 2022 o superior (carga de trabajo "Desarrollo de escritorio de .NET") |
 | Control de versiones | Git y GitHub |
 
 El proyecto no usa paquetes NuGet externos.
