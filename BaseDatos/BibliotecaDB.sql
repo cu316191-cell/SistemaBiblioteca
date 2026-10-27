@@ -177,7 +177,8 @@ INSERT INTO Autores (Nombre, Apellido, Nacionalidad) VALUES
 (N'Héctor',    N'Abad Faciolince',N'Colombiana'),   -- 7
 (N'Adolfo',    N'Bioy Casares',   N'Argentina'),    -- 8
 (N'Abraham',   N'Silberschatz',   N'Estadounidense'),-- 9
-(N'Henry',     N'Korth',          N'Estadounidense');-- 10
+(N'Henry',     N'Korth',          N'Estadounidense'),-- 10
+(N'Antonio',   N'Santa Ana',      N'Argentina');     -- 11
 GO
 
 INSERT INTO Libros (ISBN, Titulo, AnioPublicacion, Existencias, IdEditorial) VALUES
@@ -199,7 +200,8 @@ GO
 INSERT INTO LibroAutor (IdLibro, IdAutor) VALUES
 (1, 1), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 1),
 (10, 9), (10, 10),
-(11, 4), (11, 8);
+(11, 4), (11, 8),
+(12, 11);
 GO
 
 INSERT INTO Usuarios (Documento, Nombre, Apellido, Telefono, Correo, FechaRegistro) VALUES
