@@ -1,0 +1,10 @@
+# Archivos generados por Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+packages/
+TestResults/
