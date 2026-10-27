@@ -30,6 +30,9 @@ namespace Biblioteca.Presentacion.Utilidades
             dgv.DefaultCellStyle.SelectionBackColor = ColorSeleccion;
             dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
             dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(247, 249, 251);
+
+            // Al cargar datos no se deja ninguna fila seleccionada
+            dgv.DataBindingComplete += (sender, e) => dgv.ClearSelection();
         }
 
         /// <summary>Cambia los encabezados de las columnas. Recibe pares: nombre, texto.</summary>

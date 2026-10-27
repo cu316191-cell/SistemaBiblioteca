@@ -44,6 +44,7 @@ namespace Biblioteca.Presentacion.Formularios
             try
             {
                 cboUsuario.DataSource = _usuarioNegocio.Listar();
+                cboUsuario.DisplayMember = "TextoLista";
                 cboUsuario.ValueMember = "IdUsuario";
                 cboUsuario.SelectedIndex = -1;
             }

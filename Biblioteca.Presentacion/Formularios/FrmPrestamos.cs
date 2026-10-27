@@ -84,10 +84,12 @@ namespace Biblioteca.Presentacion.Formularios
             try
             {
                 cboUsuario.DataSource = _usuarioNegocio.Listar();
+                cboUsuario.DisplayMember = "TextoLista";
                 cboUsuario.ValueMember = "IdUsuario";
                 cboUsuario.SelectedIndex = -1;
 
                 cboLibro.DataSource = soloLibrosDisponibles ? _libroNegocio.ListarDisponibles() : _libroNegocio.Listar();
+                cboLibro.DisplayMember = "TextoLista";
                 cboLibro.ValueMember = "IdLibro";
                 cboLibro.SelectedIndex = -1;
             }
@@ -111,7 +113,7 @@ namespace Biblioteca.Presentacion.Formularios
 
             HabilitarDatos(true);
             lblEstado.Text = "Estado: nuevo préstamo";
-            btnGuardar.Text = "Registrar préstamo";
+            btnGuardar.Text = "Re&gistrar préstamo";
             btnGuardar.Enabled = true;
             btnEliminar.Enabled = false;
             grpDevolucion.Enabled = false;
@@ -164,7 +166,7 @@ namespace Biblioteca.Presentacion.Formularios
                         ? "Estado: vencido (" + (DateTime.Today - prestamo.FechaLimite.Date).Days + " días de retraso)"
                         : "Estado: prestado";
                     HabilitarDatos(true);
-                    btnGuardar.Text = "Guardar cambios";
+                    btnGuardar.Text = "&Guardar cambios";
                     btnGuardar.Enabled = true;
                     grpDevolucion.Enabled = true;
                     dtpFechaDevolucion.MinDate = DateTimePicker.MinimumDateTime;

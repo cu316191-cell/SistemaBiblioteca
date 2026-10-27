@@ -93,7 +93,7 @@
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(120, 32);
             this.btnGenerar.TabIndex = 5;
-            this.btnGenerar.Text = "Generar";
+            this.btnGenerar.Text = "&Generar";
             this.btnGenerar.UseVisualStyleBackColor = true;
             this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
             // 

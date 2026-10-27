@@ -169,7 +169,7 @@
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(185, 34);
             this.btnGuardar.TabIndex = 11;
-            this.btnGuardar.Text = "Registrar préstamo";
+            this.btnGuardar.Text = "Re&gistrar préstamo";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
@@ -179,7 +179,7 @@
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(95, 34);
             this.btnEliminar.TabIndex = 12;
-            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.Text = "Eli&minar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
@@ -189,7 +189,7 @@
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(95, 34);
             this.btnLimpiar.TabIndex = 13;
-            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.Text = "&Nuevo";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
@@ -226,7 +226,7 @@
             this.btnDevolver.Name = "btnDevolver";
             this.btnDevolver.Size = new System.Drawing.Size(180, 32);
             this.btnDevolver.TabIndex = 17;
-            this.btnDevolver.Text = "Registrar devolución";
+            this.btnDevolver.Text = "Registrar &devolución";
             this.btnDevolver.UseVisualStyleBackColor = true;
             this.btnDevolver.Click += new System.EventHandler(this.btnDevolver_Click);
             // 

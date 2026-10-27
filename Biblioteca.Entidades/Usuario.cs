@@ -58,9 +58,14 @@ namespace Biblioteca.Entidades
         }
 
         /// <summary>Texto que se muestra en las listas desplegables.</summary>
+        public string TextoLista
+        {
+            get { return Documento + " - " + NombreCompleto; }
+        }
+
         public override string ToString()
         {
-            return Documento + " - " + NombreCompleto;
+            return TextoLista;
         }
     }
 }

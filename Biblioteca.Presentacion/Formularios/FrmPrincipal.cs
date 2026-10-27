@@ -25,7 +25,8 @@ namespace Biblioteca.Presentacion.Formularios
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
             CultureInfo cultura = new CultureInfo("es-CO");
-            lblFecha.Text = cultura.TextInfo.ToTitleCase(DateTime.Today.ToString("dddd, d 'de' MMMM 'de' yyyy", cultura));
+            string fecha = DateTime.Today.ToString("dddd, d 'de' MMMM 'de' yyyy", cultura);
+            lblFecha.Text = char.ToUpper(fecha[0], cultura) + fecha.Substring(1);
             AbrirModulo(new FrmInicio(), btnInicio, "Inicio");
         }
 

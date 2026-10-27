@@ -128,7 +128,7 @@
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(220, 46);
             this.btnInicio.TabIndex = 6;
-            this.btnInicio.Text = "   Inicio";
+            this.btnInicio.Text = "   &Inicio";
             this.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInicio.FlatAppearance.BorderSize = 0;
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -145,7 +145,7 @@
             this.btnLibros.Name = "btnLibros";
             this.btnLibros.Size = new System.Drawing.Size(220, 46);
             this.btnLibros.TabIndex = 7;
-            this.btnLibros.Text = "   Libros";
+            this.btnLibros.Text = "   &Libros";
             this.btnLibros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLibros.FlatAppearance.BorderSize = 0;
             this.btnLibros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -162,7 +162,7 @@
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(220, 46);
             this.btnUsuarios.TabIndex = 8;
-            this.btnUsuarios.Text = "   Usuarios";
+            this.btnUsuarios.Text = "   &Usuarios";
             this.btnUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUsuarios.FlatAppearance.BorderSize = 0;
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -179,7 +179,7 @@
             this.btnAutores.Name = "btnAutores";
             this.btnAutores.Size = new System.Drawing.Size(220, 46);
             this.btnAutores.TabIndex = 9;
-            this.btnAutores.Text = "   Autores";
+            this.btnAutores.Text = "   &Autores";
             this.btnAutores.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAutores.FlatAppearance.BorderSize = 0;
             this.btnAutores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -196,7 +196,7 @@
             this.btnEditoriales.Name = "btnEditoriales";
             this.btnEditoriales.Size = new System.Drawing.Size(220, 46);
             this.btnEditoriales.TabIndex = 10;
-            this.btnEditoriales.Text = "   Editoriales";
+            this.btnEditoriales.Text = "   &Editoriales";
             this.btnEditoriales.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditoriales.FlatAppearance.BorderSize = 0;
             this.btnEditoriales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -213,7 +213,7 @@
             this.btnPrestamos.Name = "btnPrestamos";
             this.btnPrestamos.Size = new System.Drawing.Size(220, 46);
             this.btnPrestamos.TabIndex = 11;
-            this.btnPrestamos.Text = "   Préstamos";
+            this.btnPrestamos.Text = "   &Préstamos";
             this.btnPrestamos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPrestamos.FlatAppearance.BorderSize = 0;
             this.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -230,7 +230,7 @@
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(220, 46);
             this.btnReportes.TabIndex = 12;
-            this.btnReportes.Text = "   Reportes";
+            this.btnReportes.Text = "   Rep&ortes";
             this.btnReportes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReportes.FlatAppearance.BorderSize = 0;
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -248,7 +248,7 @@
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(220, 46);
             this.btnSalir.TabIndex = 13;
-            this.btnSalir.Text = "   Salir";
+            this.btnSalir.Text = "   &Salir";
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -266,6 +266,7 @@
             this.ClientSize = new System.Drawing.Size(1240, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 680);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Controls.Add(this.pnlContenido);
             this.Controls.Add(this.pnlEncabezado);
             this.Controls.Add(this.pnlMenu);

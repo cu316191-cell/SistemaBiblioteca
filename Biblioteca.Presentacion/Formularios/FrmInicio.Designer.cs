@@ -228,7 +228,7 @@
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(120, 32);
             this.btnActualizar.TabIndex = 16;
-            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.Text = "Ac&tualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
